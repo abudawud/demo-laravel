@@ -1,8 +1,8 @@
 // Fonts
-@import url('https://fonts.bunny.net/css?family=Nunito');
+// @import url('https://fonts.bunny.net/css?family=Nunito');
 
 // Variables
-@import 'variables';
+// @import 'variables';
 
 $primary: green;
 $theme-colors: (
@@ -15,4 +15,16 @@ $theme-colors: (
 .list-group-item {
     background-color: $primary;
     color: white;
+}
+
+.list-group-item:hover {
+    background-color: $primary !important;
+}
+
+.content-header {
+    padding: 10px 0px;
+}
+
+.content-wrapper > .content {
+    padding: 0px;
 }

@@ -192,7 +192,7 @@ return [
     'classes_content_wrapper' => '',
     'classes_content_header' => '',
     'classes_content' => '',
-    'classes_sidebar' => 'sidebar-primary text-dark elevation-4',
+    'classes_sidebar' => 'sidebar-light-primary text-dark elevation-4',
     'classes_sidebar_nav' => '',
     'classes_topnav' => 'navbar-primary navbar-dark border-0',
     'classes_topnav_nav' => 'navbar-expand navbar-primary',
