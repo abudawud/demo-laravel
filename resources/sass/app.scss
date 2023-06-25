@@ -4,6 +4,15 @@
 // Variables
 @import 'variables';
 
+$primary: green;
+$theme-colors: (
+  "primary": $primary,
+);
 // Bootstrap
 @import 'bootstrap';
 @import 'admin-lte';
+
+.list-group-item {
+    background-color: $primary;
+    color: white;
+}

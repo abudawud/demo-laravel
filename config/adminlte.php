@@ -187,15 +187,15 @@ return [
     */
 
     'classes_body' => '',
-    'classes_brand' => '',
+    'classes_brand' => 'bg-primary',
     'classes_brand_text' => '',
     'classes_content_wrapper' => '',
     'classes_content_header' => '',
     'classes_content' => '',
-    'classes_sidebar' => 'sidebar-dark-primary elevation-4',
+    'classes_sidebar' => 'sidebar-primary text-dark elevation-4',
     'classes_sidebar_nav' => '',
-    'classes_topnav' => 'navbar-white navbar-light',
-    'classes_topnav_nav' => 'navbar-expand',
+    'classes_topnav' => 'navbar-primary navbar-dark border-0',
+    'classes_topnav_nav' => 'navbar-expand navbar-primary',
     'classes_topnav_container' => 'container',
 
     /*
@@ -290,6 +290,23 @@ return [
     */
 
     'menu' => [
+        // Navbar items:
+        [
+            'type' => 'navbar-search',
+            'text' => 'search',
+            'topnav_right' => false,
+        ],
+        [
+            'type' => 'fullscreen-widget',
+            'topnav_right' => false,
+        ],
+        [
+            'type' => 'sidebar-menu-search',
+            'text' => 'Cari menu',           // Placeholder for the underlying input.
+            'id' => 'sidebarMenuSearch', // ID attribute for the underlying input (optional).
+        ],
+
+        // Sidebar items:
     ],
 
     /*
@@ -326,7 +343,7 @@ return [
     |
     */
 
-        'plugins' => [
+    'plugins' => [
         'Datatables' => [
             'active' => false,
             'files' => [
