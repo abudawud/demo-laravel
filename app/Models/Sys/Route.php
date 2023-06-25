@@ -10,4 +10,10 @@ class Route extends BaseModel
     use HasFactory;
 
     protected $table = 'routes';
+    public $fillable = [
+        'module_id',
+        'url',
+        'can',
+        'active',
+    ];
 }

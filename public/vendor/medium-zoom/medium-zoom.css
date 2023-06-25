@@ -1,0 +1,3 @@
+.medium-zoom-image--opened, .medium-zoom-overlay {
+	z-index: 1051;
+}

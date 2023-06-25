@@ -13,9 +13,8 @@ class Menu extends BaseModel
 
     public $fillable = [
         'parent_id', 'module_id', 'text',
-        'route', 'can', 'url', 'target',
-        'order', 'icon', 'is_active',
-        'created_by',
+        'target', 'order', 'icon', 'is_active',
+        'created_by', 'role_id', 'route_id',
     ];
 
     public $displayable = [
