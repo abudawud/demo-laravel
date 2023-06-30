@@ -22,4 +22,5 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::post('ms-barang.export', [App\Http\Controllers\MsBarangController::class, 'export'])->name('ms-barang.export');
 Route::resource('ms-barang', App\Http\Controllers\MsBarangController::class);
