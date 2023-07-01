@@ -2,12 +2,8 @@
 // @import url('https://fonts.bunny.net/css?family=Nunito');
 
 // Variables
-// @import 'variables';
+@import 'colors';
 
-$primary: green;
-$theme-colors: (
-  "primary": $primary,
-);
 // Bootstrap
 @import 'bootstrap';
 @import 'admin-lte';
