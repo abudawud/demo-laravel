@@ -1,8 +1,8 @@
 <div>
     <table style="padding: 0px;margin: 0px;" width="100%">
         <tr>
-            <td width="25%">
-                <img src="{{ asset('assets/img/logo.png') }}" width="180px">
+            <td align="center" width="25%">
+                <img src="{{ asset('assets/img/logo.png') }}" height="60px">
             </td>
             <td width="40%">
                 <div><strong>{{ config('app.company_name') }}</strong></div>

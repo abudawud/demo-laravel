@@ -6,6 +6,15 @@ use Illuminate\Support\ServiceProvider;
 return [
 
     /*
+    |-----------------
+    |  COMPANY CONST
+    |-----------------
+     */
+    'company_name' => 'PT. Sabin Solusi Sejahtera',
+    'company_address' => 'Jl. Rungkut Industri No 3',
+    'company_location' => 'Surabaya - Jawa Timur',
+
+    /*
     |--------------------------------------------------------------------------
     | Application Name
     |--------------------------------------------------------------------------

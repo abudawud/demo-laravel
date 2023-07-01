@@ -34,10 +34,10 @@
     @else
         <link rel="stylesheet" href="{{ mix(config('adminlte.laravel_mix_css_path', 'css/app.css')) }}">
     @endif
-    @vite('resources/sass/app.scss')
-
     {{-- Extra Configured Plugins Stylesheets --}}
     @include('adminlte::plugins', ['type' => 'css'])
+
+    @vite('resources/sass/app.scss')
 
     {{-- Livewire Styles --}}
     @if(config('adminlte.livewire'))
