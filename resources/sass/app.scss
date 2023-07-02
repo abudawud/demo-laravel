@@ -8,13 +8,9 @@
 @import 'bootstrap';
 @import 'admin-lte';
 
-.list-group-item {
-    background-color: $primary;
-    color: white;
-}
-
-.list-group-item:hover {
-    background-color: $primary !important;
+// disable this style when using dark sidebar!
+a.list-group-item > .search-title > strong.text-light {
+    color: $primary !important;
 }
 
 .content-header {
